@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     public Vector2 moveValue;
     public float speed;
-    public int count;
+    private int count;
 
     private void Start()
     {
